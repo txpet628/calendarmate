@@ -11,7 +11,7 @@ SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
 def get_events_past_week():
     creds = None
     # Path to your credentials file
-    client_secret_file = '/Users/diana/Downloads/google_calendar_api_secrets.json'
+    client_secret_file = '/Users/diana/my_api_secrets/google_calendar_api_secrets.json'
     
     # Check if token.pickle exists
     if os.path.exists('token.pickle'):
